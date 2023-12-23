@@ -1,0 +1,652 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*number counter start*/
+/*global css start*/
+.rafi{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	background: #eee;
+	box-shadow: 10px 11px 12px #ccc;
+}
+.number-counter{
+	width: 100%;
+	padding: 100px 0px 200px 0px;
+	
+}
+.counter-box{
+	width: 100%;
+	padding: 40px;
+	border: 2px solid #08c;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 10px 11px 12px black;
+	transition: 1s;
+}
+.counter-box:hover{
+	color: white;
+	background: black;
+}
+.counter-box .fa{
+	font-size: 90px;
+	color: #08c;
+}
+.counter-box h1{
+	font-size: 90px;
+	color: #08c;
+	font-weight: bold;
+
+}
+
+/*global start end*/
+/*number-counter end*/
+
+
+
+/*responsive start*/
+.navbar-toggler{
+	border: 1px solid #08c !important;
+
+}
+.navbar-toggler:hover{
+	color: black;
+	background: red;
+	transition: 1s;
+}
+.navbar-toggler:focus{
+	color: yellow;
+	background: transparent;
+}
+.navbar-toggler .fa{
+	color: white;
+}
+/*stick up css*/
+
+.header .navbar-wrapper{
+  width: 100%;
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+}
+.header .isStuck{
+    left:0px;
+    width:100%;
+    background: #eee;
+   
+}
+/*stic up css end*/
+
+/*header part start*/
+.header{
+	width: 100%;
+	
+	background: url("../images/Group 1.png") center top no-repeat;
+	background-size: cover;
+}
+.header .top-menu{
+	width: 100%;
+	background: red;
+	color: white;
+	text-align: center;
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: black;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.d-flex{
+	width: 30%;
+	margin: 2px;
+	
+}
+
+.d-flex .btn-success{
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+	transition: 1s;
+}
+.d-flex .btn-success:hover{
+background: transparent;
+color: black;
+}
+/*header part end*/
+/*header  banner part start*/
+
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	}
+.inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+
+}
+.inner-banner h1{
+	margin: 15px 0px;
+	font-size: 60px;
+	line-height: 1.2em;
+	color: #deb37e;
+}
+.inner-banner h4{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.2em;
+	color: #bcb9b6;
+
+}
+.inner-banner p{
+	width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.7em;
+	
+}
+.inner-btn{
+	width: 100%;
+	padding: 20px 0px;
+}
+.inner-btn .btn-success{
+	padding: 15px 45px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	margin: 0px 0px 0px 5px;
+}
+.inner-btn .btn-success:hover{
+	background: transparent;
+	color: black;
+}
+.inner-btn .btn-success:focus{
+	background: black;
+	color: red;
+}
+
+/*header  banner part end*/
+/*feature part start*/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/Design.png") center top no-repeat;
+	background-size: cover;
+}
+.feature .title{
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+.feature .title h1{
+	margin:14px 0px;
+	font-weight: bold;
+	color: red;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 60px;
+	text-shadow: 10px 12px 10px black;
+
+}
+.feature .title p{
+	font-size: 20px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+}
+
+.inner-feature{
+	width: 100%;
+	padding: 40px 0px;
+
+}
+.inner-feature .card{
+	text-align: center;
+	margin: 10px 20px;
+}
+.inner-bt{
+	width: 100%;
+	padding: 20px 0px;
+
+}
+.inner-feature .btn-success{
+	padding: 16px 50px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	
+
+}
+
+/*feature part end*/
+
+
+/*group-3 css start*/
+.group-3{
+width: 100%;
+padding: 80px 0px;
+}
+.group-3 .title{
+	padding: 220px 0px 50px;
+	background: url("../images/mbg.png") center top no-repeat;
+    background-size: cover;
+    margin-left: -23px;
+	
+}
+.group-3 .title h1{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding: 23px;
+}
+.group-3 .title p{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: black;
+	font-weight: 400;
+	padding: 23px;
+
+}
+.group-3 .title .btn-danger{
+	padding: 15px 45px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	margin: 0px 0px 0px 23px;
+}
+
+.group-3 .title .btn-danger:hover{
+	background: transparent;
+	color: black;
+}
+
+/*group-3 css end*/
+
+/*group 4 css start*/
+.group-4{
+	width: 100%;
+	margin-top: -85px;  
+}
+.group-4 .title{
+	padding: 242px 0px 50px;
+	background: url("../images/grp4bg.png") center top no-repeat;
+	background-size: cover;
+
+    /* font-size: 16px;
+	line-height: 1.7em;
+	color: black;
+	font-weight: 400;
+	padding: 23px;
+   */
+}
+.group-4 .title h1{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 23px;
+}
+.group-4 .title p{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: black;
+	font-weight: 400;
+	padding: 23px;
+	text-align: center;
+
+}
+.group-4 .title .btn-danger{
+	padding: 15px 45px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	margin: 0px 0px 0px 23px;
+}
+
+.group-4 .title .btn-danger:hover{
+	background: transparent;
+	color: black;
+}
+.inner-grp4-img{
+	margin-left: -23px; 
+}
+/*group 4 css end*/
+
+
+/*group 5 css start*/
+.group-5{
+	width: 100%;
+	padding: 420px 0px 50px;
+	background: url("../images/grp5d.png") center top no-repeat;
+	background-size: cover;
+}
+.group-5 .title{
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+.group-5 .title h1{
+	margin:14px 0px;
+	font-weight: bold;
+	color: #05c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 60px;
+	text-shadow: 10px 12px 10px black;
+
+}
+.group-5 .title p{
+	font-size: 20px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+}
+/*group 5 css end*/
+.group-6{
+	width: 100%;
+	height: auto;
+}
+/*group 6 css end*/
+
+/*group 7 css start*/
+.group-7{
+	width: 100%;
+	padding: 100px 0px;
+	background: url("../images/grp7d.png") center top no-repeat;
+	background-size: cover;
+}
+
+.group-7 .title{
+	text-align: center;
+	padding: 0px 0px 40px;
+	border: 2px solid black;	
+}
+.group-7 .title h1{
+	margin:14px 0px;
+	font-weight: bold;
+	color: #05c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 35px;
+	text-shadow: 10px 12px 10px black;
+	margin-top: 30px;
+
+}
+
+.group-7 .title p{
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+	margin-top: 20px;
+}
+.group-7 .title .btn-danger{
+	padding: 15px 45px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	margin: 0px 0px 0px 23px;
+	margin-top: 20px;
+}
+.group-7 .title .btn-danger:hover{
+	background: black;
+	color: white;
+}
+.inner-group7{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-group7 .rafi{
+	text-align: center;
+	padding: 0px 0px 40px;
+	box-shadow: 18px 19px 20px black;
+	transition: 1s;
+}
+.inner-group7 .rafi:hover{
+	background: black;
+	color: white;
+}
+.inner-group7 .rafi .fa{
+	padding: 40px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 10px 12px 10px red;
+}
+.inner-group7 .rafi h4{
+	margin:14px 0px;
+	font-weight: 400;
+	color: #05c;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.inner-group7 .rafi .btn-danger{
+	padding: 15px 45px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: red;
+	border: 2px solid white;
+	border-radius: 5px;
+	transition: 1s;
+	margin: 0px 0px 0px 23px;
+	margin-top: 20px;
+}
+.inner-group7 .rafi .btn-danger:hover{
+	background: black;
+	color: white;
+}
+/*group 7 css end*/
+
+/*group-8 css start*/
+.group-8{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/grp5d.png") center top no-repeat;
+	background-size: cover;
+}
+.group-8 .title h1{
+	text-align: center;
+	font-weight: bold;
+	color: #05c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 45px;
+	text-shadow: 10px 12px 10px transparent;
+	margin-top: 120px;
+}
+.group-8 .rima{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+	margin-top: 20px;
+}
+
+	
+	
+}
+.group-8 .form-subscribe .form-control{
+	font-size: 16px;
+}
+.group-8 .form-subscribe .btn-success{
+	margin-left: 10px;
+}
+
+/*group-8 css end*/
+
+/*footer start*/
+
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/grp4bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.footer .logo-footer h5{
+	margin: 15px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 30px;
+	text-shadow: 10px 12px 10px black;
+	
+}
+.footer .text-footer{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+	margin-right: 50px;
+}
+.icon-footer .fa{
+	font-size: 34px;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	border-radius: 100%;
+	margin-top: 10px;
+
+}
+
+.footer .list-menu{
+	list-style: none;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: black;
+
+}
+.footer .list-menu  li a{
+    color: black;
+    text-decoration: none;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+p a{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+/*footer end*/
+
+/*slider css start*/
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+}
+.slider .owl-carousel{
+	width: 100%;
+	padding: 80px 0px;
+	box-shadow: 0px 6px 10px #fff;
+}
+.slider .item h4{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: red;
+	letter-spacing: 1px;
+}
+.slider .item h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #3d2514;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+	text-shadow: 10px 12px 14px black;
+}
+.slider .item p{
+	color: black;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.7em;
+	
+}
+.slider .owl-theme .owl-nav.disabled+.owl-dots {
+    /* margin-top: 10px; */
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
+}
+.slider .owl-theme .owl-dots .owl-dot.active span, .slider .owl-theme .owl-dots .owl-dot:hover span {
+	background: #ffc045;
+}
+.slider .owl-theme .owl-dots .owl-dot span{
+	width: 15px;
+	height: 15px;
+}
+/*css slider end*/
+
+  
